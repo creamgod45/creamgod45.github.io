@@ -1,0 +1,75 @@
+/**
+ * CreamGod45-Website-File
+ * 
+ * 
+ * @see       https://github.com/creamgod45/creamgod45 The CreamGod45 GitHub Project
+ * 
+ * @author    CreamGod45(Original Founder) <CreamGod45@yun.sk>
+ * @copyright 2019 CreamGod45.lionfree.net
+ * @license   http://www.gnu.org/copyleft/lesser.html
+ * 
+ * 
+ */
+ 
+    @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Oswald:200,300,400,500,600,700|PT+Sans:400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+    @import 'dp';
+    @import 'pos';
+    @import 'font';
+    @import 'color';
+    @import 'reset';
+    @import 'source';
+
+    body
+    {
+        .demo-layout-transparent
+        {
+            .mdl-layout__tab
+            {
+                color: black;
+            }
+
+            .mdl-layout__content
+            {
+                .page-content
+                {
+                    .mdl-grid
+                    {
+                        .mdl-cell 
+                        {
+                            .author_card{
+                                padding: 16px;
+                             .mdl-card__title-text
+                                {
+                                    color: black;
+                                    @include ffamily($sui);
+                                    @include fweight(400);
+                                }
+                                
+                                .demo-card-square.mdl-card {
+                                    width: 220px;
+                                    height: 320px;
+                                    @include dp($dp-1);
+                                }
+                             .mdl-card--expand
+                                {
+                                    background: #3E4EB8;
+                                }
+                             .demo-card-square > .mdl-card__title {
+                                    color: #fff;
+                                    background-image:  url('../images/author.jpg');
+                                    background-size: 90% 95%;
+                                    background-repeat: no-repeat;
+                                    background-position: center;
+                                }
+                             
+                            }
+                        }
+                    }
+                }
+            }            
+        }
+    }
+    
+    .mj {
+        @include ffamily($mj);
+    }

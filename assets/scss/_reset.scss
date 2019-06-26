@@ -1,0 +1,28 @@
+html,body,ul,ol {
+  margin:  0;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5 {
+  margin-block-start: 8px;
+  margin-block-end: 8px;
+}
+
+a{
+  text-decoration: unset;
+  color: inherit;
+}
+
+.demo-layout-transparent {
+  background: url('../images/bg.jpg') bottom / cover !important;
+}
+.transparent,.mdl-layout__tab-bar-left-button,.mdl-layout__tab-bar-right-button{
+  background: transparent;
+}
+.demo-layout-transparent .mdl-layout__header,.demo-layout-transparent .mdl-layout__drawer-button {
+  color: white;
+}
+
+.mdl-layout__content{
+  background: white;
+}

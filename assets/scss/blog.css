@@ -1,0 +1,83 @@
+/**
+ * CreamGod45-Website-File
+ * 
+ * 
+ * @see       https://github.com/creamgod45/creamgod45 The CreamGod45 GitHub Project
+ * 
+ * @author    CreamGod45(Original Founder) <CreamGod45@yun.sk>
+ * @copyright 2019 CreamGod45.lionfree.net
+ * @license   http://www.gnu.org/copyleft/lesser.html
+ * 
+ * 
+ */
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower|Oswald:200,300,400,500,600,700|PT+Sans:400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+html, body, ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  -webkit-margin-before: 8px;
+          margin-block-start: 8px;
+  -webkit-margin-after: 8px;
+          margin-block-end: 8px;
+}
+
+a {
+  text-decoration: unset;
+  color: inherit;
+}
+
+.demo-layout-transparent {
+  background: url("../images/bg.jpg") bottom/cover !important;
+}
+
+.transparent, .mdl-layout__tab-bar-left-button, .mdl-layout__tab-bar-right-button {
+  background: transparent;
+}
+
+.demo-layout-transparent .mdl-layout__header, .demo-layout-transparent .mdl-layout__drawer-button {
+  color: white;
+}
+
+.mdl-layout__content {
+  background: white;
+}
+
+body .demo-layout-transparent .mdl-layout__tab {
+  color: black;
+}
+
+body .demo-layout-transparent .mdl-layout__content .page-content .mdl-grid .mdl-cell .author_card {
+  padding: 16px;
+}
+
+body .demo-layout-transparent .mdl-layout__content .page-content .mdl-grid .mdl-cell .author_card .mdl-card__title-text {
+  color: black;
+  font-family: Segoe UI, sans-serif !important;
+  font-weight: 400;
+}
+
+body .demo-layout-transparent .mdl-layout__content .page-content .mdl-grid .mdl-cell .author_card .demo-card-square.mdl-card {
+  width: 220px;
+  height: 320px;
+  -webkit-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+}
+
+body .demo-layout-transparent .mdl-layout__content .page-content .mdl-grid .mdl-cell .author_card .mdl-card--expand {
+  background: #3E4EB8;
+}
+
+body .demo-layout-transparent .mdl-layout__content .page-content .mdl-grid .mdl-cell .author_card .demo-card-square > .mdl-card__title {
+  color: #fff;
+  background-image: url("../images/author.jpg");
+  background-size: 90% 95%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mj {
+  font-family: Microsoft JhengHei, sans-serif !important;
+}
+/*# sourceMappingURL=index.css.map */

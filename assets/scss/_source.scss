@@ -1,0 +1,209 @@
+
+    @mixin fsize($size) {
+        font-size: $size ; 
+    }
+
+    @mixin width($size) {
+        width: $size ; 
+    }
+
+    @mixin mwidth($size) {
+        max-width: $size ; 
+    }
+
+    @mixin nwidth($size) {
+        min-width: $size ; 
+    }
+
+    @mixin height($size) {
+        height: $size ; 
+    }
+
+    @mixin container() { 
+        flex-wrap : wrap ; 
+        margin : auto ; 
+        display : flex  ; 
+    }
+    
+    @mixin col($num) {
+        flex: 0 0 $num ; 
+        max-width: $num ; 
+    }
+
+    @mixin top($size) {
+        top: $size ; 
+    }   
+
+    @mixin left($size) {
+        left: $size ; 
+    }
+
+    @mixin right($size) {
+        right: $size ; 
+    }
+
+    @mixin bottom($size) {
+        bottom: $size ; 
+    }
+
+    @mixin dp($size) {
+        box-shadow: $size ; 
+    }
+
+    @mixin mar($size) {
+        margin: $size ; 
+    }
+
+    @mixin mar-top($size) {
+        margin-top: $size ;
+    }
+
+    @mixin mar-lef($size) {
+        margin-left: $size ;
+    }
+    
+    @mixin mar-right($size) {
+        margin-right: $size ; 
+    }
+
+    @mixin mar-bottom($size){
+        margin-bottom: $size ;
+    }
+
+    @mixin pad($size) {
+        padding: $size ; 
+    }
+
+    @mixin pad-top($size) {
+        padding-top: $size ;
+    }
+    @mixin pad-lef($size) {
+        padding-left: $size ;
+    }
+    
+    @mixin pad-right($size) {
+        padding-right: $size ; 
+    }
+
+    @mixin pad-bottom($size){
+        padding-bottom: $size ;
+    }
+
+    @mixin fweight($size) {
+        font-weight: $size ; 
+    }
+
+    @mixin bgcolor($color) {
+        background: $color ; 
+    }
+
+    @mixin color($color) {
+        color:$color;
+    }
+
+    @mixin align($mode) {
+        text-align: $mode ; 
+    }
+
+    @mixin text_shadow($val1, $val2, $color) {
+        text-shadow : $val1 $val2 $color ; 
+    }
+
+    @mixin white_space($mode) {
+        white-space: $mode ; 
+    }
+
+    @mixin lsp($size) {
+        letter-spacing: $size ; 
+    }
+
+    @mixin index($index) {
+        z-index: $index ; 
+    }
+
+    @mixin radius($size) {
+        border-radius: $size ; 
+    }
+
+    @mixin mar-block($start, $end) {
+        margin-block-start: $start ; 
+        margin-block-end: $end ; 
+    }
+
+    @mixin border($mode, $size, $color) {
+        border: $mode $size $color ; 
+    }
+
+    @mixin lh($size) {
+        line-height: $size ; 
+    }
+
+    @mixin flow($mode) {
+        overflow: $mode ; 
+    }
+
+    @mixin valign($mode) {
+        vertical-align: $mode !important ; 
+    }
+
+    @mixin float($mode) {
+        float: $mode ; 
+    }
+
+    @mixin pos($mode) {
+        position: $mode ; 
+    }
+
+    @mixin unfloat {  
+        float : unset !important ; 
+    }
+
+    @mixin undisplay { 
+        display : unset !important ; 
+    }
+
+    @mixin unvalign { 
+        vertical-align : unset !important ; 
+    }
+
+    @mixin unradius { 
+        border-radius : unset !important ; 
+    }
+
+    @mixin unoutline { 
+        outline : unset !important ; 
+    }
+
+    @mixin untextd { 
+        text-decoration : unset !important ; 
+    }
+
+    @mixin unlist { 
+        list-style : none !important ; 
+    }
+
+    @mixin unli { 
+        margin-block-start : 0px !important ; 
+        margin-block-end : 0px !important  ; 
+        margin-inline-start : 0px !important ; 
+        margin-inline-end : 0px !important ; 
+        padding-inline-start : 20px !important  ; 
+    }
+
+    @mixin display($val){
+        display: $val;
+    }
+
+    @mixin ffamily($val) {
+        font-family: $val;
+    }
+
+    @mixin radius-left($val1, $val2) {
+        border-top-left-radius: $val1;
+        border-bottom-left-radius: $val2;
+    }
+    
+    @mixin radius-right($val1, $val2) {
+        border-top-right-radius: $val1;
+        border-bottom-right-radius: $val2;
+    }
