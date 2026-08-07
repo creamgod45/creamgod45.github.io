@@ -52,14 +52,6 @@
               <a href="#scroll-tab-5" class="mdl-layout__tab mj">PHP-short-dissertation</a>
             </div>
           </header>
-          <div class="mdl-layout__drawer">
-            <span class="mdl-layout-title mj">快速導覽</span>
-            <nav class="mdl-navigation">
-              <a class="mdl-navigation__link mj" href="">登入</a>
-              <a class="mdl-navigation__link mj" href="">註冊</a>
-              <a class="mdl-navigation__link mj" href="">關於我</a>
-            </nav>
-          </div>
           <main class="mdl-layout__content">
             <section class="mdl-layout__tab-panel is-active" id="scroll-tab-1">
               <div class="page-content">
@@ -83,7 +75,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mdl-cell mdl-cell--6-col"></div>
+                    <div class="mdl-cell mdl-cell--6-col">
+						<script src="https://plugins.jetbrains.com/assets/scripts/mp-widget.js"></script>
+						<script>
+						  // Please, replace #yourelement with a real element id on your webpage
+						  MarketplaceWidget.setupMarketplaceWidget('card', 32901, "#yourelement");
+						</script>
+					</div>
                     <div class="mdl-cell mdl-cell--4-col"></div>
                 </div>
               </div>
